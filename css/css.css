@@ -1,0 +1,20 @@
+body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-animation: abbr 1s;
+    animation: abbr 1s;
+}
+    body .name {
+        display: block
+    }
+    body .name.ke {
+    line-height: 60px;
+}
+    body a {
+        -webkit-transition: cubic-bezier(1.075, 0.82, 0.165, 1);
+        -o-transition: cubic-bezier(1.075, 0.82, 0.165, 1);
+        transition: cubic-bezier(1.075, 0.82, 0.165, 1);
+    }

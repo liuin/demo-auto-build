@@ -1,0 +1,14 @@
+body {
+    display: flex;
+    justify-content: space-around;
+    animation: abbr 1s;
+    .name {
+        display: block;
+        &.ke {
+            line-height: 60px;
+        }
+    }
+    a {
+        transition: cubic-bezier(1.075, 0.82, 0.165, 1);
+    }
+}
